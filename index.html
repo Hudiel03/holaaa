@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/calculadora.js"></script>
+</head>
+<style>
+body{
+  
+  background-image: url('img/call2.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+  background:transparent;
+  height: 80%;
+}
+
+</style>    
+
+<body   onload="init();"  class="m-0 vh-100 row justify-content-center align-items-center">
+<div class="container">
+		<div class="card bg-transparent " style="height: 100%; ">
+			<div class="card-header bg-transparent col-lg-12" style="height: 25%;">
+				<h4 align="center" style="font-size:60px; color:rgb(248, 14, 6); font-family:cursive">CALCULADORA</h4>
+				<div class="input-group input-group-sm row bg-white">
+ 					 <span class="input-group-addon col-lg-12" id="resultado" style="height: 100%;"></span>
+  				</div>
+			</div>	
+			<div class="card-body" >
+				<div class="row" style="height: 20%;" >
+					<button id="siete" type="button" class="btn btn-outline-dark  col-lg-3 col-md-2 col-xs-2">7</button>
+					<button id="ocho"  type="button" class="btn btn-outline-dark  col-lg-3 col-md-2 col-xs-2">8</button>
+					<button id="nueve" type="button" class="btn btn-outline-dark  col-lg-3 col-md-2 col-xs-2">9</button>
+					<button id="suma"  type="button" class="btn btn-outline-secondary  col-lg-3 col-md-2 col-md-2">+</button>
+				</div>
+				<div class="row" style="height: 20%;" >
+					<button id="cuatro" type="button" class="btn btn-outline-warning   col-lg-3 col-md-2 col-xs-2">4</button>
+					<button id="cinco"  type="button" class="btn btn-outline-warning   col-lg-3 col-md-2 col-xs-2">5</button>
+					<button id="seis"   type="button" class="btn btn-outline-warning   col-lg-3 col-md-2 col-xs-2">6</button>
+					<button id="resta"  type="button" class="btn btn-outline-secondary      col-lg-3 col-md-2 col-xs-2">-</button>
+				</div>
+				<div class="row"style="height: 20%;" >
+					<button id="uno"            type="button" class="btn btn-outline-primary  col-lg-3 col-md-2 col-xs-2">1</button>
+					<button id="dos"            type="button" class="btn btn-outline-primary  col-lg-3 col-md-2 col-xs-2">2</button>
+					<button id="tres"           type="button" class="btn btn-outline-primary  col-lg-3 col-md-2 col-xs-2">3</button>
+					<button id="multiplicacion" type="button" class="btn btn-outline-secondary     col-lg-3 col-md-2 col-xs-2">*</button>
+				</div>
+				<div class="row" style="height: 40%;">
+					<button id="reset"    type="button" class="btn btn-danger   col-lg-3 col-md-2 col-xs-2">BORRAR</button>
+					<button id="cero"     type="button" class="btn btn-outline-primary  col-lg-3 col-md-2 col-xs-2">0</button>
+					<button id="igual"    type="button" class="btn btn-success  col-lg-3 col-md-2 col-xs-2">=</button>
+					<button id="division" type="button" class="btn btn-outline-secondary     col-lg-3 col-md-2 col-xs-2">/</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
